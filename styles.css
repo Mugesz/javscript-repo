@@ -128,14 +128,25 @@ html,body{
   transform: rotate(45deg);
 } */
 
-.hover-image {
+/* .hover-image {
   position: absolute;
   pointer-events: none;
   display: none;
-  z-index: 1000; /* Ensure it appears above other content */
+  z-index: 1000; 
 }
 
 .hover-image.visible {
   display: block;
-}
+} */
 
+.circle {
+  height: 240px;
+  width: 240px;
+  border-radius:50%;
+  background-color: black;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 99999999;
+}
