@@ -121,11 +121,13 @@ arr = ["x", "y", "z"]
 //    console.log(val)
 //  })/
 
-// arr.forEach(print)
-// function print(val){
-//   console.log(val)
-// }
+arr.forEach(print)
+function print(val){
+  console.log(val)
+}
 
 for (i=0; i<(arr.length); i++){
    console.log(arr[i])
 }
+
+document.querySelector
